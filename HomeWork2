@@ -1,0 +1,17 @@
+package com.apple.egor.a;
+
+public class Work2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		double a = 4.5;
+		double b = 5.4;
+		double c = 6.2;
+		double p = (a + b + c)/2;
+		double s=Math.sqrt(p*(p-a)*(p-b)*(p-c));
+		System.out.println(s);
+						
+	}
+
+}
